@@ -1,0 +1,171 @@
+/***** BASE STYLES *****/
+
+body {
+  background-color: #F2F2F2;
+  font-family: 'Roboto Mono', monospace;
+}
+
+h3 {
+  color: #F2F2F2;
+  padding: 20px 0;
+  font-size: 36px;
+  text-align: center;
+}
+
+p, h4 {
+  color: #3c5959;
+  font: 24px;
+  line-height: 25px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    overflow: auto;
+    width: 1200px;
+}
+
+.half-width {
+    float:left;
+    width: 600px;
+}
+
+.third-width {
+    float:left;
+    width: 1200px;
+}
+
+/***** Header Section *****/
+
+header .full-width  {
+    background: url('../img/header-background.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+nav {
+    float: right;
+  /*  padding: 75px 25px;*/
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    font-size: 16px;
+    color: #828282;
+    padding-left: 80px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+header h1 {
+  color: #428c37;
+  font-family: 'Roboto Slab', serif;
+  font-size: 60px;
+  padding: 130px 0 30px 0;
+  text-align: center;
+}
+
+header h2 {
+  color: #095256;
+  font-size: 48px;
+  padding: 30px 70px;
+  text-align: center;
+}
+
+/***** PORTFOLIO *****/
+
+#portfolio h3 {
+  color: #3c5959;
+}
+
+#portfolio img {
+  border: 2px solid #3c5959;
+  margin: 30px;
+}
+
+.third-width p, h4 {
+  padding-left: 30px;
+  padding-right: 30px;
+  text-align: left;
+}
+
+#portfolio #work-link {
+  text-align: center;
+  text-decoration: none;
+}
+
+/***** ABOUT *****/
+
+#about .full-width {
+  background-color: #a4bdbf;
+}
+
+
+
+#about h4 {
+  padding: 65px 70px 0 30px;
+  font-family: 'Roboto Slab', serif;
+}
+
+#about p {
+  padding: 30px 70px 0 30px;
+}
+
+#about img {
+  display: block;
+  margin: 30px auto 50px;
+}
+
+#about #portfolio-link {
+
+}
+
+/***** FOOTER *****/
+
+/* the ul had a default padding, had to get rid of it */
+footer .sm-links {
+  text-align: center;
+}
+
+footer .full-width {
+  background-color: #53736d;
+}
+
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+  display: inline-block;
+  padding-right: 10px;
+  /*margin: 0 0 0 50px; */
+}
+
+footer ul img {
+    border: 2px solid #f2f2f2;
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
+footer #email {
+  color: #809ed9;
+  font-family: 'Roboto Slab', serif;
+  font-size: 20px;
+  padding-left: 140px;
+  text-decoration: none;
+}
+
+footer h4 {
+  color: #f2f2f2;
+  font-family: 'Roboto Slab', serif;
+  text-align: center;
+  font-size: 24px;
+}
+#contact p {
+  padding: 0 100px 10px 140px;
+}
